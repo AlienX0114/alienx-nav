@@ -1436,7 +1436,7 @@ body .search-engine-option.active {
     outline: none !important;
   }
 
-  body.mobile-page-style3 .search-input-target::placeholder,
+  body.mobile-page-style3 .search-input-target::placeholder，
   body.mobile-page-style3.custom-wallpaper .search-input-target::placeholder,
   html.dark body.mobile-page-style3 .search-input-target::placeholder {
     color: #9ca3af !important;
@@ -1703,8 +1703,8 @@ body .search-engine-option.active {
 
 /* 毛玻璃效果 - Light Mode */
 .frosted-glass-effect {
-  background: rgba(49, 17, 17, 0.4) !important;
-  backdrop-filter: blur(var(--frosted-glass-blur, 15px)) !important;
+  background: rgba(49, 17, 17, 0.1) !important;
+  backdrop-filter: blur(var(--frosted-glass-blur, 3px)) !important;
   -webkit-backdrop-filter: blur(var(--frosted-glass-blur, 15px)) !important;
   border: 1px solid rgba(255, 255, 255, 0.6) !important;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
