@@ -5,6 +5,15 @@
   --frosted-glass-blur: 15px; /* Default blur */
 }
 
+.leftbar a {
+  color:#ffffff;
+}
+
+.leftbar a:hover{
+  background-color:#ffffff;
+  color:#000000;
+}
+
 .home-title-block:empty {
   display: none;
 }
