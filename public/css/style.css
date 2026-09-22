@@ -9,7 +9,12 @@
   color:#ffffff;
 }
 
-.leftbar a:hover{
+.leftbar a:hover {
+  background-color:#ffffff;
+  color:#000000;
+}
+
+.leftbar a:active {
   background-color:#ffffff;
   color:#000000;
 }
