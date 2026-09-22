@@ -1703,7 +1703,7 @@ body .search-engine-option.active {
 
 /* 毛玻璃效果 - Light Mode */
 .frosted-glass-effect {
-  background: rgba(255, 255, 255, 0.4) !important;
+  background: rgba(49, 17, 17, 0.4) !important;
   backdrop-filter: blur(var(--frosted-glass-blur, 15px)) !important;
   -webkit-backdrop-filter: blur(var(--frosted-glass-blur, 15px)) !important;
   border: 1px solid rgba(255, 255, 255, 0.6) !important;
@@ -1711,7 +1711,7 @@ body .search-engine-option.active {
 }
 
 .frosted-glass-effect:hover {
-  background: rgba(255, 255, 255, 0.6) !important;
+  background: rgba(49, 17, 17, 0.6) !important;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
   border: 1px solid rgba(255, 255, 255, 0.9) !important;
 }
