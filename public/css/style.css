@@ -1633,7 +1633,7 @@ body .search-engine-option.active {
   body.desktop-page-style3 .dropdown-item:hover,
   body.desktop-page-style3 #horizontalMoreDropdown .dropdown-item:hover,
   body.desktop-page-style3.custom-wallpaper .dropdown-item:hover,
-  body.desktop-page-style3.custom-wallpaper #horizontalMoreDropdown .dropdown-item:hover,
+  body.desktop-page-style3.custom-wallpaper #horizontalMoreDropdown .dropdown-item:hover，
   html.dark body.desktop-page-style3 .dropdown-item:hover,
   html.dark body.desktop-page-style3 #horizontalMoreDropdown .dropdown-item:hover,
   html:not(.dark) body.desktop-page-style3 .dropdown-item:hover {
@@ -1718,7 +1718,7 @@ body .search-engine-option.active {
 
 /* Light Mode + Wallpaper Sidebar Optimization */
 html:not(.dark) body.custom-wallpaper .sidebar {
-    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-color: rgba(49, 17, 17, 0.4) !important;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
