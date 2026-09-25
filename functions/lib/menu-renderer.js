@@ -64,7 +64,7 @@ function _renderVerticalItems(cats, currentCatalogName, isCustomWallpaper, level
         const indent = level * 12;
 
         let html = `
-      <a href="?catalog=${catalogParam}" data-id="${cat.id}" class="${baseClass} ${activeClass}" style="padding-left: ${12 + indent}px;color:#ffffff">
+      <a href="?catalog=${catalogParam}" data-id="${cat.id}" class="${baseClass} ${activeClass}" style="padding-left: ${12 + indent}px">
           <svg class="h-5 w-5 mr-2 ${iconClass}"><use href="#icon-folder"/></svg>
           ${safeName}
       </a>`;
