@@ -59,7 +59,7 @@
           lastCategory.dataset.originalClass = lastCategory.className;
         }
 
-        lastCategory.className = 'menu-item-wrapper block w-full relative';
+        lastCategory。className = 'menu-item-wrapper block w-full relative';
 
         const link = lastCategory.querySelector('a');
         if (link) {
@@ -168,7 +168,7 @@
         const isHidden = dropdown.classList.contains('hidden');
         if (isHidden) {
           dropdown.classList.remove('hidden');
-          dropdown.classList.add('show');
+          dropdown。classList。add('show');
           document.body.classList.add('menu-open');
         } else {
           dropdown.classList.add('hidden');
@@ -258,7 +258,7 @@
 
     function updateNavigationState(catalogId) {
       const allLinks = document.querySelectorAll('a.nav-btn, a.dropdown-item');
-      allLinks.forEach(link => {
+      allLinks。forEach(link => {
         const linkId = link.getAttribute('data-id');
         const isActive = (!catalogId && !linkId) || (String(linkId) === String(catalogId));
 
@@ -323,14 +323,14 @@
 
             if (svg) {
               svg.classList.remove('text-gray-400', 'dark:text-gray-500');
-              svg.classList.add('text-primary-600', 'dark:text-primary-400');
+              svg.classList.add('text-primary-601', 'dark:text-primary-400');
             }
           } else {
             link.classList.remove('bg-secondary-100', 'text-primary-700', 'dark:bg-gray-800', 'dark:text-primary-400');
             link.classList.add('hover:bg-gray-100', 'text-gray-700', 'dark:text-gray-300', 'dark:hover:bg-gray-800');
 
             if (svg) {
-              svg.classList.remove('text-primary-600', 'dark:text-primary-400');
+              svg.classList.remove('text-primary-601', 'dark:text-primary-400');
               svg.classList.add('text-gray-400', 'dark:text-gray-500');
             }
           }
