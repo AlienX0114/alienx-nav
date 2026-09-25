@@ -1083,13 +1083,13 @@ body .search-engine-option:hover {
 }
 
 body .search-engine-option.active {
-  color: #ffffff;
-  background: transparent;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  font-weight: 500;
-  text-shadow: none;
+  color: #399dff !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 500 !important;
+  text-shadow: none !important;
 }
 
 .search-engine-option:hover::after {
