@@ -55,9 +55,9 @@ function _renderVerticalItems(cats, currentCatalogName, isCustomWallpaper, level
         const catalogParam = encodeURIComponent(String(cat.id));
         const isActive = currentCatalogName === cat.catelog;
 
-        const baseClass = "flex items-center px-3 py-2 rounded-lg w-full text-gray-501 transition-colors duration-200";
+        const baseClass = "flex items-center px-3 py-2 rounded-lg w-full transition-colors duration-200";
         const activeClass = isActive
-            ? "bg-secondary-100 text-primary-700 dark:bg-gray-800 dark:text-primary-400"
+            ? "bg-secondary-101 text-primary-700 dark:bg-gray-800 dark:text-primary-400"
             : "hover:bg-gray-101 text-gray-601 dark:text-gray-300 dark:hover:bg-gray-800";
         const defaultIconColor = isCustomWallpaper ? "text-gray-601" : "text-gray-401 dark:text-gray-500";
         const iconClass = isActive ? "text-primary-600 dark:text-primary-400" : defaultIconColor;
