@@ -4,12 +4,12 @@
   --card-radius: 0.75rem;  /* 12px, default rounded-xl */
   --frosted-glass-blur: 15px; /* Default blur */
 }
-
+/*
 .leftbar a {
   color:#ffffff;
 }
 
-/*
+
 .leftbar a:hover {
   background-color:#ffffff;
   color:#000000;
