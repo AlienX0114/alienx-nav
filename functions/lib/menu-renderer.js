@@ -64,7 +64,7 @@ function _renderVerticalItems(cats, currentCatalogName, isCustomWallpaper, level
             ? "text-primary-700 dark:bg-gray-800 dark:text-primary-400"
             : "hover:text-gray-601 dark:text-gray-300 dark:hover:bg-gray-800";
         const defaultIconColor = isCustomWallpaper ? "text-gray-601" : "text-gray-401 dark:text-gray-500";
-        const iconClass = isActive ? "text-primary-601 dark:text-primary-400" : defaultIconColor;
+        const iconClass = isActive ? "text-primary-600 dark:text-primary-400" : defaultIconColor;
         const indent = level * 12;
 
         let html = `
