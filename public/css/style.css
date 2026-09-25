@@ -4,19 +4,17 @@
   --card-radius: 0.75rem;  /* 12px, default rounded-xl */
   --frosted-glass-blur: 15px; /* Default blur */
 }
-/*
+
 .leftbar a {
   color:#ffffff;
 }
-
 
 .leftbar a:hover {
   background-color:#ffffff;
   color:#000000;
 }
-*/
 
-.home-title-block:空的 {
+.home-title-block:empty {
   display: none;
 }
 
@@ -980,7 +978,7 @@ html.dark .site-card.style-3:not(.frosted-glass-effect) .site-title {
 
 .search-engine-option.active {
   background-color: white;
-  color: #ffffff; /* Dark Blue */
+  color: #1d4ed8; /* Dark Blue */
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   font-weight: 600;
   border-bottom-color: transparent; /* Reset old style */
@@ -1085,7 +1083,7 @@ body .search-engine-option:hover {
 }
 
 body .search-engine-option.active {
-  color: #399dff !important;
+  color: #ffffff !important;
   background: transparent !important;
   background-color: transparent !important;
   border: none !important;
