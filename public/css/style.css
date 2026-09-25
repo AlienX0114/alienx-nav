@@ -980,7 +980,7 @@ html.dark .site-card.style-3:not(.frosted-glass-effect) .site-title {
 
 .search-engine-option.active {
   background-color: white;
-  color: #1d4ed8; /* Dark Blue */
+  color: #ffffff; /* Dark Blue */
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   font-weight: 600;
   border-bottom-color: transparent; /* Reset old style */
