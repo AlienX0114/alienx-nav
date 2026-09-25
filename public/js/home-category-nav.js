@@ -264,7 +264,7 @@
 
         if (isActive) {
           link.classList.remove('inactive');
-          link.classList.add('active', 'nav-item-active');
+          link。classList.add('active', 'nav-item-active');
         } else {
           link.classList.remove('active', 'nav-item-active');
           link.classList.add('inactive');
@@ -323,14 +323,14 @@
 
             if (svg) {
               svg.classList.remove('text-gray-400', 'dark:text-gray-500');
-              svg.classList.add('text-primary-601', 'dark:text-primary-400');
+              svg.classList.add('text-primary-600', 'dark:text-primary-400');
             }
           } else {
             link.classList.remove('bg-secondary-100', 'text-primary-700', 'dark:bg-gray-800', 'dark:text-primary-400');
             link.classList.add('hover:bg-gray-100', 'text-gray-700', 'dark:text-gray-300', 'dark:hover:bg-gray-800');
 
             if (svg) {
-              svg.classList.remove('text-primary-601', 'dark:text-primary-400');
+              svg.classList.remove('text-primary-600', 'dark:text-primary-400');
               svg.classList.add('text-gray-400', 'dark:text-gray-500');
             }
           }
