@@ -1083,7 +1083,7 @@ body .search-engine-option:hover {
 }
 
 body .search-engine-option.active {
-  color: #ffffff !important;
+  color: #ffffff;
   background: transparent !important;
   background-color: transparent !important;
   border: none !important;
