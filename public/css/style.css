@@ -9,12 +9,14 @@
   color:#ffffff;
 }
 
+/*
 .leftbar a:hover {
   background-color:#ffffff;
   color:#000000;
 }
+*/
 
-.home-title-block:empty {
+.home-title-block:空的 {
   display: none;
 }
 
